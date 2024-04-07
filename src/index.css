@@ -1,0 +1,206 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .home {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#d3eeff;
+    color: rgb(7, 12, 17);
+  }
+  .gridhome{
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+   
+  }
+  .homeh1{
+    font-style: italic;
+  }
+  .homepara{
+    font-style: oblique;
+  }
+  
+  h4 {
+    text-align: center;
+    color: #666;
+   
+    margin: 5%;
+  }
+  .h4tag{
+    margin:10%;
+    padding: 10%;
+    text-align:center;
+    font-style: italic;
+    text-overflow:clip
+  }
+  
+  p {
+    text-align:justify;
+    color: #100b0b;
+  }
+  
+  .homeimage {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px; /* Adjust maximum width as needed */
+    height: 200px;
+    
+
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .home {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h4 {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .homeimage {
+      max-width: 300px; /* Adjust maximum width as needed */
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  /* about image */
+  /* General styles */
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#E0BBE4!important;
+  }
+  
+  .about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align the text */
+    
+
+
+  }
+  
+  .about p {
+    margin-bottom: 20px;
+    font-style: oblique;
+  }
+  
+  .aboutimage {
+    display: flex;
+    justify-content: space-around; /* Distribute the images evenly */
+    align-items: center; /* Vertically center the images */
+  }
+  
+  .aboutimage img {
+    width: 150px; /* Adjust image size as needed */
+    height: auto;
+    border-radius: 50%; /* Create a circular border around the images */
+    border: 5px solid #fff; /* Add a white border around the images */
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .about {
+      padding: 10px;
+    }
+  
+    .aboutimage {
+      flex-wrap: wrap; /* Allow images to wrap to the next line */
+    }
+  
+    .aboutimage img {
+      margin: 10px; /* Add space around each image */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .aboutimage img {
+      width: 120px; /* Reduce image size for smaller screens */
+    }
+  }
+  
+  /* contact */
+  /* General styles */
+  /* General styles */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the contact section horizontally */
+    text-align: center; /* Center the text content horizontally */
+    font-style: oblique;
+  }
+  
+  .contactus {
+    margin-bottom: 20px; /* Add margin below the heading */
+  }
+  
+  .address {
+    margin-top: 10%; /* Push the address list to the bottom */
+    text-align:justify; /* Align the address list to the right */
+    display: grid;
+    justify-content: end;
+
+  }
+  
+
+  
+  
+/* heaith */
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto auto; 
+  gap: 20px; 
+  height: 200px !important;
+}
+
+@media screen and (max-width: 768px) {
+   .card-container{
+    display: grid;
+    grid-template-columns: auto; 
+    
+   }
+  }
+  .resource-container {
+    display: grid;
+    justify-content: center; /* Center the cards horizontally */
+    gap: 20px; /* Add 20px gap between the cards */
+    margin: 20px;
+    font-style: oblique;
+  }
+  
+  .resource {
+    margin-top: 20px; /* Add top margin to create space between rows */
+  }
+  .custom-card{
+    font-style: oblique;
+  }
+  
+
+
+
+  
+  
+      
+  
